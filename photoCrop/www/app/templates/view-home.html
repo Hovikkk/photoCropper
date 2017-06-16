@@ -1,0 +1,101 @@
+﻿<ion-view view-title="Home" hide-nav-bar="true" data-ng-init="init()" can-swipe-back="false" >
+    <ion-content class="padding" scroll="false">
+        <div class="container text-center" id="container">
+            <div class="row imgActive">
+                <a ng-click="myImage()" class="homePageBotton rulesButton vcenter col-xs-12"></a>
+            </div>
+            <!--crop_1-->
+            <!--<image-cropper image-url="{{imageUrl}}"
+                           width="640"
+                           height="480"
+                           show-controls="true"
+                           fit-on-init="false"
+                           center-on-init="true"
+                           api="cropperApi"
+                           crop-callback="updateResultImage"
+                           action-labels="myButtonLabels"></image-cropper>-->
+
+            <!--crop_2-->
+            <!--<div>Select an image file: <input type="file" id="fileInput" /></div>
+            <div class="cropArea">
+                <img-crop image="myImage" result-image="myCroppedImage"></img-crop>
+            </div>
+            <div>Cropped Image:</div>
+            <div><img ng-src="{{myCroppedImage}}" /></div>-->
+
+            <!--crop_3-->
+            <div>
+                <img class="imageCroper" src="images/cropImg.jpg">
+            </div>
+            <div class="btn-group">
+                <button title="Rotate Left" class="btn btn-primary leftRepeat" type="button"  data-method="rotate" ng-click="rotateLeft()">
+                    <span title="" class="docs-tooltip"   data-toggle="tooltip" data-animation="false">
+                        <span class="fa fa-rotate-left"></span>
+                    </span>
+                </button>
+                <button title="Rotate Right" class="btn btn-primary rightRepeat" type="button" data-method="rotate" ng-click="rotateRigth()">
+                    <span title="" class="docs-tooltip" data-toggle="tooltip" data-animation="false">
+                        <span class="fa fa-rotate-right"></span>
+                    </span>
+                </button>
+                <button title="Rotate Left" class="btn btn-primary zoomAdd" type="button" data-method="rotate" ng-click="zoomAdd()">
+                    <span title="" class="docs-tooltip" data-toggle="tooltip" data-animation="false">
+                        <span class="fa fa-rotate-left">+</span>
+                    </span>
+                </button>
+               <!-- <button type="button" class="btn btn-primary" data-method="getCroppedCanvas" ng-click="cropModal()">
+                    <span class="docs-tooltip" data-toggle="tooltip" data-animation="false">
+                         160&times;90
+                      </span>
+                </button>-->
+                <button type="button" class="btn btn-primary" ng-click="cropModal()">
+                    4&times;3
+                </button>
+                <button type="button" class="btn btn-primary" ng-click="cropModal2()">
+                    16&times;9
+                </button>
+                <button title="Rotate Right" class="btn btn-primary zoomOut" type="button" data-method="rotate" ng-click="zoomOut()">
+                    <span title="" class="docs-tooltip" data-toggle="tooltip" data-animation="false">
+                        <span class="fa fa-rotate-right">-</span>
+                    </span>
+                </button>
+                
+            </div>
+
+            <!-- Show the cropped image in modal -->
+           <!-- <div class="modal fade docs-cropped" id="getCroppedCanvasModal" aria-hidden="true" aria-labelledby="getCroppedCanvasTitle" ng-show="download" role="dialog" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="getCroppedCanvasTitle">Cropped</h4>
+                        </div>
+                        <div class="modal-body"></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" id="download" href="javascript:void(0);" download="cropped.jpg">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>--><!-- /.modal -->
+            <div class="bg" ng-show="chooseSource">
+                <div class="popupFoto">
+                    <div class="popupFotoDiv">
+                        <div class="divGallery">
+                            <a ng-click="popupPhoto(0)" class="galleryButton vcenter"></a>
+                            <span style="color:#959595">From Gallary</span>
+                        </div>
+                        <div class="divCamera">
+                            <a ng-click="popupPhoto(1)" class="cameraButton vcenter"></a>
+                            <span style="color:#959595">Take a photo</span>
+                        </div>
+                        <div ng-click="goToGallery()" class="goToGallery">
+
+                        </div>
+                    </div>
+                </div>
+                <a id="closebutton" class="closeButton" ng-click="closePopup()"></a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,29 @@
+﻿<ion-view view-title="Gallery" hide-nav-bar="true" can-swipe-back="false">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>
+    </ion-nav-buttons>
+    <ion-content class="padding" scroll="false">
+        <div class="container text-center" id="container">
+            <!--<img src="{{pic}}" ng-click="myImage()" class="picCamera" id='orgImg' />-->
+            <ion-gallery ion-zoom-events="false" ion-gallery-items="items">
+                
+            </ion-gallery>
+            <a ng-click="addImage()" class="addButton vcenter"></a>
+            <div class="bg" ng-show="chooseSource">
+                <div class="popupFoto">
+                    <div class="popupFotoDiv">
+                        <div class="divGallery">
+                            <a ng-click="popupPhoto(0)" class="galleryButton vcenter"></a>
+                            <span style="color:#959595">From Gallary</span>
+                        </div>
+                        <div class="divCamera">
+                            <a ng-click="popupPhoto(1)" class="cameraButton vcenter"></a>
+                            <span style="color:#959595">Take a photo</span>
+                        </div>
+                    </div>
+                </div>
+                <a id="closebutton" class="closeButton" ng-click="closePopup()"></a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

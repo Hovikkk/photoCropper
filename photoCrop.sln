@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "photoCrop", "photoCrop\photoCrop.jsproj", "{A35AA88B-6919-46D2-89D8-225EBA64E3DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Android.ActiveCfg = Debug|Android
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Android.Build.0 = Debug|Android
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Android.Deploy.0 = Debug|Android
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|iOS.ActiveCfg = Debug|iOS
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|iOS.Build.0 = Debug|iOS
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|iOS.Deploy.0 = Debug|iOS
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Android.ActiveCfg = Release|Android
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Android.Build.0 = Release|Android
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Android.Deploy.0 = Release|Android
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|iOS.ActiveCfg = Release|iOS
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|iOS.Build.0 = Release|iOS
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|iOS.Deploy.0 = Release|iOS
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{A35AA88B-6919-46D2-89D8-225EBA64E3DC}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

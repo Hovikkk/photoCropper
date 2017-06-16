@@ -1,0 +1,8 @@
+{
+  "name": "photoCrop",
+  "dependencies": {
+    "ion-gallery": "0.1.14",
+    "angular-img-cropper": "v1.1.0",
+    "cropper": "v3.0.0-rc"
+  }
+}
